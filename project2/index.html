@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header id="home" class="header">
+        <nav class="navbar">
+            <img src="img/logo.png" alt="Logo" class="navbar__logo" onclick="scrollToTop()">
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="#home" class="navbar__link">Home</a></li>
+                <li class="navbar__item"><a href="#shop" class="navbar__link">Shop</a></li>
+                <li class="navbar__item"><a href="#featured" class="navbar__link">Featured</a></li>
+                <li class="navbar__item"><a href="#pages" class="navbar__link">Pages</a></li>
+                <li class="navbar__item"><a href="#blogs" class="navbar__link">Blogs</a></li>
+                <li class="navbar__item"><a href="#contact" class="navbar__link">Contact</a></li>
+            </ul>
+
+            <div class="navbar__icons">
+                <i class="fas fa-search navbar__icon"></i>
+                <i class="fas fa-user navbar__icon"></i>
+                <i class="fas fa-shopping-cart navbar__icon"></i>
+            </div>
+
+            <div class="navbar__burger" onclick="toggleMenu()">
+                <span class="burger-line line1"></span>
+                <span class="burger-line line2"></span>
+                <span class="burger-line line3"></span>
+            </div>
+        </nav>
+
+        <div class="header__content">
+            <h4 class="header__subtitle">Style Destination</h4>
+            <h1 class="header__title">BURGER DELICIOUS</h1>
+            <p class="header__text">
+                It is a long established fact that a reader will be <br>
+                distracted by the readable content
+            </p>
+            <button class="header__button">SHOP NOW</button>
+        </div>
+    </header>
+
+
+    <section id="shop" class="shop">
+        <h5 class="shop__subtitle">Crispy, Every Bite Taste</h5>
+        <h1 class="shop__title">Visit Our Store</h1>
+
+        <div class="shop__cards">
+            <div class="shop__card">
+                <img src="img/store1.png" alt="">
+                <div class="shop__card-text">
+                    <h1>Hamburger Veggie</h1>
+                    <p>It is a long established fact that a <br> reader</p>
+                </div>
+            </div>
+
+            <div class="shop__card">
+                <img src="img/store2.png" alt="">
+                <div class="shop__card-text">
+                    <h1>Ham Sandwich</h1>
+                    <p>It is a long established fact that a <br> reader</p>
+                </div>
+            </div>
+
+            <div class="shop__card">
+                <img src="img/store3.png" alt="">
+                <div class="shop__card-text">
+                    <h1>Sushi Sashimi</h1>
+                    <p>It is a long established fact that a <br> reader</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="banners">
+            <div class="banner">
+                <img src="img/banner1.webp" alt="">
+                <div class="banner__content">
+                    <h5>Fone Store</h5>
+                    <h1>Delicious Foods</h1>
+                    <button>SHOP NOW</button>
+                </div>
+            </div>
+
+            <div class="banner">
+                <img src="img/banner2.webp" alt="">
+                <div class="banner__content">
+                    <h5>Fone Store</h5>
+                    <h1>Other Flavors</h1>
+                    <button>SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="featured">
+        <h5 class="featured__subtitle">Food Items Popular Dishes</h5>
+        <h1 class="featured__title">Best Seller</h1>
+
+        <div class="featured__grid">
+            <div class="featured__card">
+                <div class="image-wrapper">
+                    <img src="img/s1.webp" alt="Item 8">
+                    <div class="card__overlay">
+                        <i class="fas fa-shopping-cart featured__icon"></i>
+                        <span>Add to Cart</span>
+                </div>                     
+            </div>
+                <h6 class="featured__name">Demo Item</h6>
+                <p class="featured__price">$23.00</p>
+            </div>
+            <div class="featured__card">
+                <div class="image-wrapper">
+                    <img src="img/s2.webp" alt="Item 8">
+                    <div class="card__overlay">
+                        <i class="fas fa-shopping-cart featured__icon"></i>
+                        <span>Add to Cart</span>
+                    </div>                     </div>
+                <h6 class="featured__name">Demo Item</h6>
+                <p class="featured__price">$23.00</p>
+            </div>
+            <div class="featured__card">
+                <div class="image-wrapper">
+                    <img src="img/s3.webp" alt="Item 8">
+                    <div class="card__overlay">
+                        <i class="fas fa-shopping-cart featured__icon"></i>
+                        <span>Add to Cart</span>
+                    </div>                    
+                </div>
+                <h6 class="featured__name">Demo Item</h6>
+                <p class="featured__price">$23.00</p>
+            </div>
+            <div class="featured__card">
+                <div class="image-wrapper">
+                    <img src="img/s4.webp" alt="Item 8">
+                    <div class="card__overlay">
+                        <i class="fas fa-shopping-cart featured__icon"></i>
+                        <span>Add to Cart</span>
+                    </div>                     
+                </div>
+                <h6 class="featured__name">Demo Item</h6>
+                <p class="featured__price">$23.00</p>
+            </div>
+            <div class="featured__card">
+                <div class="image-wrapper">
+                    <img src="img/s5.webp" alt="Item 8">
+                    <div class="card__overlay">
+                        <i class="fas fa-shopping-cart featured__icon"></i>
+                        <span>Add to Cart</span>
+                    </div>                     </div>
+                <h6 class="featured__name">Demo Item</h6>
+                <p class="featured__price">$23.00</p>
+            </div>
+            <div class="featured__card">
+                <div class="image-wrapper">
+                    <img src="img/s6.webp" alt="Item 8">
+                    <div class="card__overlay">
+                        <i class="fas fa-shopping-cart featured__icon"></i>
+                        <span>Add to Cart</span>
+                    </div>     
+                </div>
+                <h6 class="featured__name">Demo Item</h6>
+                <p class="featured__price">$23.00</p>
+            </div>
+            <div class="featured__card">
+                <div class="image-wrapper">
+                    <img src="img/s7.webp" alt="Item 8">
+                    <div class="card__overlay">
+                        <i class="fas fa-shopping-cart featured__icon"></i>
+                        <span>Add to Cart</span>
+                    </div>                         </div>
+                <h6 class="featured__name">Demo Item</h6>
+                <p class="featured__price">$23.00</p>
+            </div>
+            <div class="featured__card">
+                <div class="image-wrapper">
+                    <img src="img/s8.webp" alt="Item 8">
+                    <div class="card__overlay">
+                        <i class="fas fa-shopping-cart featured__icon"></i>
+                        <span>Add to Cart</span>
+                    </div>               
+                </div>
+                <h6 class="featured__name">Demo Item</h6>
+                <p class="featured__price">$23.00</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pages" class="pages">
+        <div class="pages__image-container">
+            <img src="img/cta.webp" alt="Delicious Food" class="pages__image">
+            <div class="pages__content">
+                <h1 class="pages__title">Enjoy The Delicious Taste</h1>
+                <p class="pages__text">When you've got your health, you got everything.</p>
+                <button class="pages__button">SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="blogs" class="blogs">
+        <h5 class="blogs__subtitle">Blog & News</h5>
+        <h1 class="blogs__title">OUR BLOGS</h1>
+
+        <div class="blogs__grid">
+            <div class="blog-card">
+                <img src="img/b1.webp" alt="Blog 1" class="blog-card__image">
+                <div class="blog-card__info">
+                    <div class="blog-card__date">
+                        <span class="blog-card__day">22</span>
+                        <span class="blog-card__month">May</span>
+                    </div>
+                    <div class="blog-card__content">
+                        <h3 class="blog-card__title">How to Win The Attention of New Clients: Tips & Tricks</h3>
+                        <p class="blog-card__meta">Post By Admin / 3.Comments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="img/b2.webp" alt="Blog 1" class="blog-card__image">
+                <div class="blog-card__info">
+                    <div class="blog-card__date">
+                        <span class="blog-card__day">22</span>
+                        <span class="blog-card__month">May</span>
+                    </div>
+                    <div class="blog-card__content">
+                        <h3 class="blog-card__title">How to Win The Attention of New Clients: Tips & Tricks</h3>
+                        <p class="blog-card__meta">Post By Admin / 3.Comments</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="img/b3.webp" alt="Blog 1" class="blog-card__image">
+                <div class="blog-card__info">
+                    <div class="blog-card__date">
+                        <span class="blog-card__day">22</span>
+                        <span class="blog-card__month">May</span>
+                    </div>
+                    <div class="blog-card__content">
+                        <h3 class="blog-card__title">How to Win The Attention of New Clients: Tips & Tricks</h3>
+                        <p class="blog-card__meta">Post By Admin / 3.Comments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="contact">
+        <div class="footer-container">
+            <div class="footer-info">
+                <img src="img/logo.png" alt="logo">
+                <p>We believe it has the power to do <br> amazing things</p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div class="footer-info">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Expert Testimony</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                    <li><a href="#">Returns Policy</a></li>
+                    <li><a href="#">Warranty & Repair</a></li>
+                    <li><a href="#">My Account</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <h4>CONTACTS</h4>
+                <p>Work Time</p>
+                <p>Monday - Friday</p>
+                <p>11:00 - 00:00</p>
+                <p>Address: LA, Vehicle Street, 58</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© All Copyright 2022 by Tamild Ahmed</p>
+        </div>
+    </footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
